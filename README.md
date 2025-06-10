@@ -6,7 +6,7 @@ This is a Singular code for performing the computations needed for the paper
 
 # Content
 
-- genericsakuma.s constructs the universal 2-generated primitive axial algebra of Monster type $(\alpha, \beta)$ when $\alpha\not \in$ { $2\beta, 4\beta$ } and producing the four polynomials poly1, poly2, poly3, poly4 (corresponding to the polynomials $p_1,p_2,p_3, p_4$ in the paper). This is used to obtain the formulas in Section 6 of the paper and produce the four polynomials poly1, poly2, poly3, poly4 (corresponding to the polynomials $p_1,p_2,p_3, p_4$ in Theorem 1.2 and Section 8).
+- genericsakuma.s constructs the universal 2-generated primitive axial algebra of Monster type $(\alpha, \beta)$ when $\alpha\not \in$ { $2\beta, 4\beta$ }. This is used to obtain the formulas in Section 6 of the paper and produce the four polynomials poly1, poly2, poly3, poly4 (corresponding to the polynomials $p_1,p_2,p_3, p_4$ in Theorem 1.2 and Section 8).
 - universalalgebra-al=4bt.s computes the formulas in Section 7 of the paper.
 - checksSection9.s performs the computations needed in Section 9.
 - majorana.s performs the computations needed in Section 10.
@@ -39,6 +39,7 @@ To produce the displayed formulas in Lemma 7.i ($i \in$ { $1,..., 11$ }) run the
     Formula(i);    
 
 Note that Singular returns gen(i) for the ith entry of ( am4, am3, am2, am1, a0, a1, a2, a3, a4, s1, s2, s2f, s3, s3f, s3t, s4, s42 ). 
+
 For other products use the function Times: for example, to compute $a_0s_{1,3}$ in Lemma 7.6(iii) type
 
     Times(a0,s3f);
@@ -67,4 +68,6 @@ For each of the previous values we compute the corresponding value of $\lambda_2
     factorize(val2(q1));  
     factorize(val2(q2));  
 
+## majorana.s
 
+Computations in the file majorana.s are similar to those in the previous files, performed in the special case where $(\alpha, \beta)=(1/4, 1/32)$ and the field has characteristic $0$.
