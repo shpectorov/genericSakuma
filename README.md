@@ -7,7 +7,7 @@ This is a Singular code for performing the computations needed for the paper
 # Content
 
 - genericsakuma.s constructs the universal 2-generated primitive axial algebra of Monster type $(\alpha, \beta)$ when $\alpha\not \in$ { $2\beta, 4\beta$ } and producing the four polynomials poly1, poly2, poly3, poly4 (corresponding to the polynomials $p_1,p_2,p_3, p_4$ in the paper). This is used to obtain the formulas in Section 6 of the paper and produce the four polynomials poly1, poly2, poly3, poly4 (corresponding to the polynomials $p_1,p_2,p_3, p_4$ in Theorem 1.2 and Section 8).
-- universalalgebra-al=4bt.s computs the formulas in Section 7 of the paper.
+- universalalgebra-al=4bt.s computes the formulas in Section 7 of the paper.
 - checksSection9.s performs the computations needed in Section 9.
 - majorana.s performs the computations needed in Section 10.
 
