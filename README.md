@@ -2,7 +2,7 @@
 
 This is a Singular code for performing the computations needed for the paper 
 
-[C.Franchi, M. Mainardis, and S. Shpectorov, 2-generated axial algebras of Monster type, arXiv:2101.10379](https://doi.org/10.48550/arXiv.2101.10379)
+[C. Franchi, M. Mainardis, and S. Shpectorov, 2-generated axial algebras of Monster type, arXiv:2101.10379](https://doi.org/10.48550/arXiv.2101.10379)
 
 # Content
 
