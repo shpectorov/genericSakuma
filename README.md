@@ -67,4 +67,4 @@ For each of the previous values we compute the corresponding value of $\lambda_2
     factorize(val2(q1));  
     factorize(val2(q2));  
 
-# end of file
+
