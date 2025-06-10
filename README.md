@@ -6,14 +6,14 @@ This is a Singular code for performing the computations needed for the paper
 
 # Content
 
-- genericsakuma.s constructing the universal 2-generated primitive axial algebra of Monster type $(\alpha, \beta)$ when $\alpha\not \in$ { $2\beta, 4\beta$ } and producing the four polynomials poly1, poly2, poly3, poly4 (corresponding to the polynomials $p_1,p_2,p_3, p_4$ in the paper). Use this to obtain the formulas in Section 6 of the paper and produce the four polynomials poly1, poly2, poly3, poly4 (corresponding to the polynomials $p_1,p_2,p_3, p_4$ in Theorem 1.2 and Section 8).
-- universalalgebra-al=4bt.s computing the formulas in Section 7 of the paper.
-- checksSection9.s performing the computations needed in Section 9.
-- majorana.s performing the computations needed in Section 10.
+- genericsakuma.s constructs the universal 2-generated primitive axial algebra of Monster type $(\alpha, \beta)$ when $\alpha\not \in$ { $2\beta, 4\beta$ } and producing the four polynomials poly1, poly2, poly3, poly4 (corresponding to the polynomials $p_1,p_2,p_3, p_4$ in the paper). This is used to obtain the formulas in Section 6 of the paper and produce the four polynomials poly1, poly2, poly3, poly4 (corresponding to the polynomials $p_1,p_2,p_3, p_4$ in Theorem 1.2 and Section 8).
+- universalalgebra-al=4bt.s computs the formulas in Section 7 of the paper.
+- checksSection9.s performs the computations needed in Section 9.
+- majorana.s performs the computations needed in Section 10.
 
-# Code-paper dictionary
+# Code-2-paper dictionary
 
-The following correspondence between the symbols used in the code and those used in the paper hold:
+The following provides correspondence between the symbols used in the code and those used in the paper:
 - al corresponds to $\alpha$ and bt corresponds to $\beta$
 - lm, lmf, lm2, lm2f, lm3, lm3f, lm4, lm4f correspond to $\lambda_1$, $\lambda_1^f$, $\lambda_2$, $\lambda_2^f$, $\lambda_3$, $\lambda_3^f$, $\lambda_4$, $\lambda_4^f$,  respectively;
 - am4, am3, am2, am1, a0, a1, a2, a3, a4 correspond to $a_{-4}$, $a_{-3}$, $a_{-2}$, $a_{-1}$, $a_0$, $a_1$, $a_2$, $a_3$, $a_4$, respectively;
@@ -51,7 +51,7 @@ The other formulas in Section 7 can be easily computed or found in the code.
 
 # checksSection9.s
 
-To check the result o Lemma 9.1, run the file genericsakuma.s and type
+To check the result of Lemma 9.1, run the file genericsakuma.s and type
  
     factorize(resultant(q1,q2,lm2)); 
     
@@ -66,3 +66,5 @@ For each of the previous values we compute the corresponding value of $\lambda_2
     map val2=F, 0,0, lm2,lm2; 
     factorize(val2(q1));  
     factorize(val2(q2));  
+
+# end of file
